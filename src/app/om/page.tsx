@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { getAboutContent, getOpeningHours } from '../../../sanity/sanity.query'
 import type { AboutType, OpeningHourType } from '../../../types'
-import { dancingScript } from '../layout'
+import { dancingScript } from '../fonts'
 import { PortableText } from '@portabletext/react'
 
 export default async function Home() {

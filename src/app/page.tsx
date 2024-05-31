@@ -7,7 +7,7 @@ import {
 } from '../../sanity/sanity.query'
 import type { MenuType, CategoryType, StartType } from '../../types'
 import HeroImg from './images/hero-img.jpg'
-import { dancingScript } from './layout'
+import { dancingScript } from './fonts'
 import { PortableText } from '@portabletext/react'
 
 export default async function Home() {
