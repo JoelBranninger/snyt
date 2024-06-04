@@ -77,27 +77,6 @@ const startPage = {
         }),
       ],
     }),
-    defineField({
-      name: 'SlideShowimages',
-      title: 'Slide Show Images',
-      type: 'array',
-      of: [
-        {
-          type: 'image',
-          options: {
-            hotspot: true,
-          },
-          fields: [
-            {
-              name: 'alt',
-              type: 'string',
-              title: 'Alternative Text',
-              validation: (rule) => rule.required(),
-            },
-          ],
-        },
-      ],
-    }),
   ],
 }
 
